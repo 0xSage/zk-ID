@@ -4,7 +4,7 @@ snarkjsPath: "./node_modules/snarkjs/build/cli.cjs"
 # circomPath: "../.local/bin/circom"
 #circomPath: "./node_modules/circom/cli.js"
 # Since I'm using the rust release of circom:
-circomPath: "../../.cargo/bin/circom"
+circomPath: "$HOME/.cargo/bin/circom"
 circomRuntimePath: "./node_modules/circom_runtime"
 circomFlags: "--c --r1cs --sym --wasm --wat"
 
@@ -14,14 +14,8 @@ circuits:
   - template: "./circom/Merkle.circom"
     component: "Merkle"
     params: []
-    type: "test"
-    pubInputs: []
-
-  - template: "./circom/Merkle.circom"
-    component: "Merkle"
-    params: []
     type: "prod"
-    pubInputs: []
+    pubInputs: ["dummy"]
 
 ptauFiles:
   1:
