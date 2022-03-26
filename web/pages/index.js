@@ -1,8 +1,18 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import { useEffect } from 'react'
 import styles from '../styles/Home.module.css'
 
-export default function Home() {
+import { covalentQuery } from '../utils/covalent'
+
+export async function getServerSideProps() {
+  const data = await covalentQuery()
+  return { props: { data }}
+}
+
+export default function Home({ data }) {
+  console.log(data)
+
   return (
     <div className={styles.container}>
       <Head>
