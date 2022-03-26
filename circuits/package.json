@@ -7,16 +7,24 @@
     "zkey-compile": "zkey-manager compile -c ./zkeys.config.yml",
     "zkey-ptau": "zkey-manager downloadPtau -c ./zkeys.config.yml",
     "zkey-genZkeys": "zkey-manager genZkeys -c ./zkeys.config.yml",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "test": "jest --runInBand",
+    "test-merkle": "jest Merkle.test.ts",
+    "test-debug": "node --inspect-brk ./node_modules/.bin/jest Merkle.test.ts"
   },
   "license": "ISC",
   "dependencies": {
     "circomlib": "^2.0.3",
     "circomlibjs": "^0.1.2",
+    "ffjavascript": "^0.2.51",
+    "shelljs": "^0.8.5",
     "snarkjs": "^0.4.15",
+    "ts-jest": "^27.1.4",
     "zkey-manager": "^0.1.2"
   },
   "devDependencies": {
-    "circom-helper": "^0.3.3"
+    "@types/jest": "^27.4.1",
+    "circom-helper": "^0.3.3",
+    "jest": "^27.5.1"
   }
 }
