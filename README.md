@@ -18,6 +18,10 @@ Our simple demo lets users prove:
 
 ## ZK
 For increased privacy, merkle leaves can be commitments to private values e.g. `hash(pws/addresses/some_secret_nullifier_tuple)`, rather than just addresses in the clear (as seen in TornadoCash, zkAirdrops). But since we're proving public chain state, these additional constraints are not necessary in this simple project.
+
+## Requirements
+- Node/npm
+- Rust installation of Circom. [Instructions](https://docs.circom.io/getting-started/installation/#installing-dependencies)
 ## Credits
 - Tornado Cash
 - 0xParc mentors
