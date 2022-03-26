@@ -16,7 +16,6 @@ class App extends React.Component {
     // TODO: Have some loading form
     let data = await covalentQuery();
     let tree = constructMerkleTree(data);
-    // console.log(data)
   }
 
   render() {
