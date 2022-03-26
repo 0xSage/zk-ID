@@ -21,7 +21,9 @@ For increased privacy, merkle leaves can be commitments to private values e.g. `
 
 ## Requirements
 - Node/npm
-- Rust installation of Circom. [Instructions](https://docs.circom.io/getting-started/installation/#installing-dependencies)
+- Rust/cargo
+- Cargo build and install Circom. [Instructions](https://docs.circom.io/getting-started/installation/#installing-dependencies)
+- Macs: `brew install wget`
 ## Credits
 - Tornado Cash
 - 0xParc mentors
