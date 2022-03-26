@@ -12,5 +12,8 @@
     "circomlibjs": "^0.1.2",
     "snarkjs": "^0.4.15",
     "zkey-manager": "^0.1.2"
+  },
+  "devDependencies": {
+    "circom-helper": "^0.3.3"
   }
 }
