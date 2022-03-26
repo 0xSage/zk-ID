@@ -1,0 +1,17 @@
+{
+  "name": "zk-ID",
+  "version": "0.0.1",
+  "description": "hackathon prototype",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "lerna run build",
+    "bootstrap": "lerna bootstrap",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "typescript": "^4.4.4"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}
