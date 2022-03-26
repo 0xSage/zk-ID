@@ -1,6 +1,4 @@
 // TODO: Construct Merkle Proof
-import { MerkleTree } from "merkletreejs"
-import * as ethers from "ethers"
 
 export async function constructMerkleTree(data) {
     console.log(data)
@@ -11,11 +9,12 @@ export async function constructMerkleTree(data) {
         console.log(typeof x)
         return x
     })
+    
+    // const tree = new MerkleTree(leaves, poseidon)
+    // console.log(tree.toString())
+    
+    // console.log(poseidon)
 
-    const tree = new MerkleTree(leaves, ethers.utils.keccak256)
-    console.log(tree.toString())
-    
-    
     
     return data
 }
