@@ -10,6 +10,9 @@ https://stackoverflow.com/questions/69692842/error-message-error0308010cdigital-
 We also need to use `react-scripts` 4.0.3 because 
 https://stackoverflow.com/questions/70530052/keccak-js-uncaught-referenceerror-buffer-is-not-defined
 
+Additionally, we constrain treeHeight to 2*10 in merkle.js, because we get 1000 from Covalent's API, and we need to 0 out the remaining slots
+https://github.com/a16z/zkp-merkle-airdrop-lib
+
 ## Available Scripts
 
 In the project directory, you can run:

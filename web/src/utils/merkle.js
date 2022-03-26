@@ -1,21 +1,14 @@
 // TODO: Construct Merkle Proof
-import { MerkleTree } from "merkletreejs"
+import { MerkleTree } from 'zkp-merkle-airdrop-lib'
 import * as ethers from "ethers"
 
 export async function constructMerkleTree(data) {
-    console.log(data)
-    console.log(data.length)
+    // NOTE: Arbitrary limit of 2**10
+    // TODO: Validate that data length is < 2**10
+    let treeHeight = 2 ** 10;
+    let arr = new Array(treeHeight).fill(0)
+    let leaves = arr.map((zero,i) => data[i] ? ethers.BigNumber.from(data[i]): ethers.BigNumber.from(zero))
 
-    const leaves = data.map(x => {
-        console.log(x)
-        console.log(typeof x)
-        return x
-    })
-
-    const tree = new MerkleTree(leaves, ethers.utils.keccak256)
-    console.log(tree.toString())
-    
-    
-    
-    return data
+    let tree = MerkleTree.createFromLeaves(leaves)
+    return tree
 }

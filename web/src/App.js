@@ -11,8 +11,6 @@ class App extends React.Component {
   }
 
   async componentDidMount() {
-    console.log("Hello")
-    
     // TODO: Have some loading form
     let data = await covalentQuery();
     let tree = constructMerkleTree(data);
