@@ -1,3 +1,6 @@
 *.wtns
 node_modules
 **/build/
+
+# From zkey-manager
+/circuits/zkeys
