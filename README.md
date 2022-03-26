@@ -4,12 +4,14 @@
 For learning purposes only. Circuits and contracts are not audited.
 
 ## Overview
-A generic implementation for SNARK proofs on merklized chain state with public, tuple leaves.
+This repo contains the following: 
+- A generic plugin for constructing merkle trees on AVAX chain state.
+- A generic implementation for SNARK proofs on merkle inclusion.
 
-Example merkle leaves and what they prove:
-- (address, token balance) => I own more than __ tokens
-- (NFTid, address) => I own an NFT of this variety
-- (address, transactions[i]) => I participated in this ICO
+Possible usecases include letting users prove:
+- I own more than __ tokens
+- I own an NFT of this variety
+- I participated in this ICO
 
 ## ZK
 A SNARK proof of any values in public chain state, without the existence of "ZK Oracles", is possible with a merkle proof of inclusion.
