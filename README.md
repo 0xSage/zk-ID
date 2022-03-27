@@ -1,7 +1,6 @@
 # zk-id
 
-<a href="https://drive.google.com/drive/folders/1PvkLKwy-mAhNTafAV-6hfYQTtgwEyz90?usp=sharing">
-![](https://raw.githubusercontent.com/0xEigenvector/zk-ID/update-readme/diagram.png)</a>
+![](https://raw.githubusercontent.com/0xEigenvector/zk-ID/update-readme/diagram.png)
 
 ## Motivation
 For hackathon & learning purposes only. Circuits and contracts are not audited.
