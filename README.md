@@ -1,7 +1,11 @@
 # zk-id
 
+<a href="https://drive.google.com/drive/folders/1PvkLKwy-mAhNTafAV-6hfYQTtgwEyz90?usp=sharing">
+![](diagram.png)</a>
+
 ## Motivation
 For hackathon & learning purposes only. Circuits and contracts are not audited.
+Code quality is abysmal due to Barcelona's fantastic restaurant scene. 
 
 ### Hackathon Assets
 - Hackathon code: https://github.com/0xEigenvector/zk-ID/tree/main/final/eth_addr
