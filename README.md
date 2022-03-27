@@ -3,6 +3,9 @@
 ## Motivation
 For hackathon & learning purposes only. Circuits and contracts are not audited.
 
+Hackathon code: https://github.com/0xEigenvector/zk-ID/tree/main/final/eth_addr
+Demo video: https://drive.google.com/drive/folders/1PvkLKwy-mAhNTafAV-6hfYQTtgwEyz90?usp=sharing
+
 ## Overview
 This repo contains the following: 
 - A generic plugin for constructing merkle trees with Poseidon hashes on AVAX public chain state.
