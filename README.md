@@ -1,7 +1,7 @@
 # zk-id
 
+[Presentation video](https://drive.google.com/drive/folders/1PvkLKwy-mAhNTafAV-6hfYQTtgwEyz90?usp=sharing)
 ![](https://raw.githubusercontent.com/0xEigenvector/zk-ID/update-readme/diagram.png)
-[Demo video](https://drive.google.com/drive/folders/1PvkLKwy-mAhNTafAV-6hfYQTtgwEyz90?usp=sharing)
 
 ## Motivation
 - For hackathon & learning purposes only. Circuits and contracts are not audited.
@@ -9,6 +9,7 @@
 
 ### Hackathon Assets
 - Hackathon code: https://github.com/0xEigenvector/zk-ID/tree/main/final/eth_addr
+- [Presentation video](https://drive.google.com/drive/folders/1PvkLKwy-mAhNTafAV-6hfYQTtgwEyz90?usp=sharing)
 
 ## Overview
 This repo contains the following: 
