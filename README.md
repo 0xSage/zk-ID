@@ -1,7 +1,7 @@
 # zk-id
 
+[Presentation video](https://drive.google.com/drive/folders/1PvkLKwy-mAhNTafAV-6hfYQTtgwEyz90?usp=sharing)
 ![](https://raw.githubusercontent.com/0xEigenvector/zk-ID/update-readme/diagram.png)
-[Demo video](https://drive.google.com/drive/folders/1PvkLKwy-mAhNTafAV-6hfYQTtgwEyz90?usp=sharing)
 
 ## Motivation
 - For hackathon & learning purposes only. Circuits and contracts are not audited.
@@ -14,6 +14,7 @@
 - Example trx: 0x1be299fddc0f8f60172c2abc194f30c78a840d31f40c02224dc4e783609385e2
 
 - Hackathon code: https://github.com/0xEigenvector/zk-ID/tree/main/final/eth_addr
+- [Presentation video](https://drive.google.com/drive/folders/1PvkLKwy-mAhNTafAV-6hfYQTtgwEyz90?usp=sharing)
 
 ## Overview
 This repo contains the following: 
